@@ -108,7 +108,7 @@ class RootViewController: UIViewController {
             choosenSigns.append(mathAction)
         }
     }
-    #warning("проверить")
+
     private func updateStartButtonStatus(){
         guard !choosenNumbers.isEmpty else { return startButton.isUserInteractionEnabled = false }
         startButton.isUserInteractionEnabled = true
