@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C958DD63-54BD-430F-B801-BADBB91C47F9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0D4DCDB-FF5A-4B45-8F68-1F812192EBED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MathProject/Model/ViewControllers/PullViewController/ViewAndAdditions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewAndAdditions"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F0D4DCDB-FF5A-4B45-8F68-1F812192EBED - c9f89a696d086a10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MathProject.ViewAndAdditions.deinit"
+                  moduleName = "MathProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irynararova/Desktop/MathProject/MathProject/Model/ViewControllers/PullViewController/ViewAndAdditions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F0D4DCDB-FF5A-4B45-8F68-1F812192EBED - 5f911e93bd2809ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MathProject.ViewAndAdditions.__deallocating_deinit"
+                  moduleName = "MathProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irynararova/Desktop/MathProject/MathProject/Model/ViewControllers/PullViewController/ViewAndAdditions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F0D4DCDB-FF5A-4B45-8F68-1F812192EBED - c5ef48e4c2f57656"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MathProject.ViewAndAdditions.__allocating_init() -&gt; MathProject.ViewAndAdditions"
+                  moduleName = "MathProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irynararova/Desktop/MathProject/MathProject/Model/ViewControllers/PullViewController/ViewAndAdditions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "F0D4DCDB-FF5A-4B45-8F68-1F812192EBED - 8efa0f903432a44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MathProject.ViewAndAdditions.init() -&gt; MathProject.ViewAndAdditions"
+                  moduleName = "MathProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irynararova/Desktop/MathProject/MathProject/Model/ViewControllers/PullViewController/ViewAndAdditions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

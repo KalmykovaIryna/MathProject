@@ -1,0 +1,38 @@
+{
+  "identifier" : "28D28FD4",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "34777CA5",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Open all oportunities of App",
+          "displayName" : "Open new functionallity",
+          "locale" : "ar"
+        }
+      ],
+      "productID" : "com.myapp.irynaKalmykova.MathProject",
+      "referenceName" : "Open new functionality",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}
