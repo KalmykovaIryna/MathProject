@@ -91,7 +91,7 @@ class QuizViewController: UIViewController, TaskComletedViewControllerDelegate {
             let string = rootLabel.text
             guard let string = string else { return }
             mistakes.append(string)
-            SoundPlayer.shared.congratulationsSounds(soundCase: SoundCases.wrongAnswer)
+            SoundPlayer.shared.congratulationsSounds(soundCase: SoundCases.vrongAnswer)
             button.isEnabled = false
         }
     }

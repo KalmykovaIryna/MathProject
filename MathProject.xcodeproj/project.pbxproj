@@ -14,6 +14,7 @@
 		CA60A6FC2989527C00557622 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60A6FB2989527C00557622 /* AnswerButton.swift */; };
 		CA60A701298984E700557622 /* WorningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60A700298984E700557622 /* WorningViewController.swift */; };
 		CA60A703298C396300557622 /* CellStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60A702298C396200557622 /* CellStatus.swift */; };
+		CA93B74729FAE57D00A89F33 /* vrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA93B74629FAE57D00A89F33 /* vrongAnswer.mp3 */; };
 		CAA6E93B29F6E13D0058C3DF /* SoundCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6E93A29F6E13D0058C3DF /* SoundCases.swift */; };
 		CAA6E93D29F706B60058C3DF /* PaymentLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6E93C29F706B60058C3DF /* PaymentLogic.swift */; };
 		CAABD0202968981A0023342C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAABD01F296898170023342C /* Assets.xcassets */; };
@@ -23,7 +24,6 @@
 		CAC4BDF52971CB17009F2648 /* ConvertString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4BDF42971CB17009F2648 /* ConvertString.swift */; };
 		CAC5C2E62937D75800DE649C /* MathSignEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5C2E52937D75800DE649C /* MathSignEnum.swift */; };
 		CAC5C2E82940977200DE649C /* NavigationGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5C2E72940977200DE649C /* NavigationGameViewController.swift */; };
-		CAC5C2EC2964936B00DE649C /* wrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAC5C2EB2964936A00DE649C /* wrongAnswer.mp3 */; };
 		CAC5C2EE29649A2500DE649C /* TaskCompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5C2ED29649A2500DE649C /* TaskCompletedViewController.swift */; };
 		CAC5C2F02967037E00DE649C /* noMistake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAC5C2EF2967037E00DE649C /* noMistake.mp3 */; };
 		CAC5C2F22967134600DE649C /* MistakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5C2F12967134600DE649C /* MistakeViewController.swift */; };
@@ -51,6 +51,7 @@
 		CA60A6FB2989527C00557622 /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
 		CA60A700298984E700557622 /* WorningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorningViewController.swift; sourceTree = "<group>"; };
 		CA60A702298C396200557622 /* CellStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStatus.swift; sourceTree = "<group>"; };
+		CA93B74629FAE57D00A89F33 /* vrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vrongAnswer.mp3; sourceTree = "<group>"; };
 		CAA6E93A29F6E13D0058C3DF /* SoundCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCases.swift; sourceTree = "<group>"; };
 		CAA6E93C29F706B60058C3DF /* PaymentLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentLogic.swift; sourceTree = "<group>"; };
 		CAABD01F296898170023342C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		CAC4BDF42971CB17009F2648 /* ConvertString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertString.swift; sourceTree = "<group>"; };
 		CAC5C2E52937D75800DE649C /* MathSignEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSignEnum.swift; sourceTree = "<group>"; };
 		CAC5C2E72940977200DE649C /* NavigationGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationGameViewController.swift; sourceTree = "<group>"; };
-		CAC5C2EB2964936A00DE649C /* wrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongAnswer.mp3; sourceTree = "<group>"; };
 		CAC5C2ED29649A2500DE649C /* TaskCompletedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCompletedViewController.swift; sourceTree = "<group>"; };
 		CAC5C2EF2967037E00DE649C /* noMistake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noMistake.mp3; sourceTree = "<group>"; };
 		CAC5C2F12967134600DE649C /* MistakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistakeViewController.swift; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				CAC5C2EF2967037E00DE649C /* noMistake.mp3 */,
+				CA93B74629FAE57D00A89F33 /* vrongAnswer.mp3 */,
 				CAABD021296F1D850023342C /* taskCompleted.mp3 */,
-				CAC5C2EB2964936A00DE649C /* wrongAnswer.mp3 */,
 				CACAF81328CA3C3700741DD1 /* correctAnswer.mp3 */,
 			);
 			path = Resourses;
@@ -320,8 +320,8 @@
 				CAF4870B28BCEEF9006FE7F6 /* LaunchScreen.storyboard in Resources */,
 				CACAF8202922C26F00741DD1 /* RootVCCollectionViewCell.xib in Resources */,
 				CAF4870628BCEEF7006FE7F6 /* Main.storyboard in Resources */,
-				CAC5C2EC2964936B00DE649C /* wrongAnswer.mp3 in Resources */,
 				CAABD0202968981A0023342C /* Assets.xcassets in Resources */,
+				CA93B74729FAE57D00A89F33 /* vrongAnswer.mp3 in Resources */,
 				CAC5C2F02967037E00DE649C /* noMistake.mp3 in Resources */,
 				CA3D4FA429DE1AF8006B63A4 /* MistakeTableViewCell.xib in Resources */,
 				CACAF81428CA3C3800741DD1 /* correctAnswer.mp3 in Resources */,

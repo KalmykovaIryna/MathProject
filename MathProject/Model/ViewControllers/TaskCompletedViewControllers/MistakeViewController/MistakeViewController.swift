@@ -41,10 +41,10 @@ extension MistakeViewController {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell =  mistakeTableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as? MistakeTableViewCell else { return UITableViewCell() }
-            let wrongAnswer = vrongAnswers[indexPath.row]
+            let vrongAnswer = vrongAnswers[indexPath.row]
             let correctAnswer = correctAnswers[indexPath.row]
             cell.mistakeTextLabel.text = mistakes[indexPath.row]
-            cell.vrongAnswerLabel.text = "\(wrongAnswer)"
+            cell.vrongAnswerLabel.text = "\(vrongAnswer)"
             cell.correctAnswerLabel.text = "\(correctAnswer)"
             return cell
     }

@@ -222,7 +222,7 @@ class PullViewViewController: UIViewController, TaskComletedViewControllerDelega
                     returnStringByID(id: id)
                     correctAnswers.append(resultView.tag)
                     vrongAnswers.append(viewAnswerNumber)
-                    SoundPlayer.shared.congratulationsSounds(soundCase: SoundCases.wrongAnswer)
+                    SoundPlayer.shared.congratulationsSounds(soundCase: SoundCases.vrongAnswer)
                     returnViewToOrigin(view: view)
                 }
             }
