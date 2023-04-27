@@ -114,6 +114,7 @@ class RootViewController: UIViewController {
         startButton.isUserInteractionEnabled = true
     }
     
+    #warning("проверить")
     private func createCell(indexPath: IndexPath, arrayOfLabels: [UILabel]?, choosenSign: [MathSignEnum]){
         let int1 = indexPath.row + 1
         guard let arrayOfLabels = arrayOfLabels else { return }
